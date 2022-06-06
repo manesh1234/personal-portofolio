@@ -301,14 +301,14 @@ nav a.active {
 
 .row_1 {
     flex-grow: 1;
-    background-image: url(./assets/leetcode.jfif);
+    background-image: url(./assets/leetcode.jpg);
     background-repeat: no-repeat;
     background-size: 70%;
 }
 
 .row_2 {
     flex-grow: 1;
-    background-image: url(./assets/gfg.png);
+    background-image: url(./assets/gfg.jpg);
     background-repeat: no-repeat;
     background-size: 70%;
 }
