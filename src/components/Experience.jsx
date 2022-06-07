@@ -4,7 +4,17 @@ import Typewriter from 'typewriter-effect';
 import styles from '../index.module.css';
 import { BsPatchCheckFill } from 'react-icons/bs';
 import { ImHtmlFive } from 'react-icons/im';
-
+import { FaReact } from 'react-icons/fa';
+import { SiJavascript } from 'react-icons/si';
+import { DiCss3 } from 'react-icons/di';
+import { SiJquery } from 'react-icons/si';
+import { FaBootstrap } from 'react-icons/fa';
+import { SiNodedotjs } from 'react-icons/si';
+import { SiPhp } from 'react-icons/si';
+import { SiMysql } from 'react-icons/si';
+import { SiMongodb } from 'react-icons/si';
+import { FaJava } from 'react-icons/fa';
+import { SiPython } from 'react-icons/si';
 
 function Experience() {
     return (
@@ -13,7 +23,7 @@ function Experience() {
             <h2>
                 <Typewriter
                     options={{
-                        strings: ["Main strength is DSA and competetive coding", "amazing problem solving skills"],
+                        strings: ["Always Learning new Technologies","Primary strength is DSA and competetive coding", "amazing problem solving skills"],
                         autoStart: true,
                         loop: true,
                     }}
@@ -24,44 +34,44 @@ function Experience() {
                     <h3>Frontend Development</h3>
                     <div className={styles.experience_content}>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>Reactjs</h4>
+                                <h4>Reactjs <FaReact className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Experienced</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>JavaScript</h4>
+                                <h4>JavaScript <SiJavascript className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Experienced</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>HTML <ImHtmlFive /></h4>
+                                <h4>HTML <ImHtmlFive className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Experienced</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>CSS</h4>
+                                <h4>CSS <DiCss3 className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Experienced</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>Jquery</h4>
+                                <h4>Jquery <SiJquery className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Experienced</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>Bootstrap</h4>
+                                <h4>Bootstrap <FaBootstrap className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Intermediate</small>
                             </div>
                         </article>
@@ -71,44 +81,44 @@ function Experience() {
                     <h3>Backend Development</h3>
                     <div className={styles.experience_content}>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>NodeJs <ImHtmlFive /></h4>
+                                <h4>NodeJs <SiNodedotjs className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Experienced</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>PHP</h4>
+                                <h4>PHP <SiPhp className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Experienced</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>Mysql</h4>
+                                <h4>Mysql <SiMysql className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Intermediate</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>mongodb</h4>
+                                <h4>mongodb <SiMongodb className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Intermediate</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>JAVA</h4>
+                                <h4>JAVA <FaJava className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Intermediate</small>
                             </div>
                         </article>
                         <article className={styles.experience_details}>
-                            <BsPatchCheckFill className={styles.experience_details_icon}/>
+                            <BsPatchCheckFill className={styles.experience_details_icon} />
                             <div>
-                                <h4>Python</h4>
+                                <h4>Python <SiPython className={styles.icons} /></h4>
                                 <small className={styles.text_light}>Basic</small>
                             </div>
                         </article>
