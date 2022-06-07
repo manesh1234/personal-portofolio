@@ -149,6 +149,12 @@ header {
     align-items: center;
 }
 
+.download_icon {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    padding-top: 4px;
+}
+
 .header_socials {
     display: flex;
     flex-direction: column;
@@ -544,7 +550,7 @@ footer a {
 
     .my_pic {
         position: relative;
-        left: calc(50% - 13rem);
+        left: calc(50% - 11rem);
     }
 
     section>h2 {
@@ -631,12 +637,17 @@ footer a {
     }
 
     .my_pic {
-        left: 5%;
+        margin: 1rem 0rem;
+    }
+
+    .resume_links {
+        margin-top: 1.5rem;
     }
 
     .text_main {
         font-size: 1.8rem;
     }
+
 
     .header_socials {
         position: absolute;
@@ -648,7 +659,7 @@ footer a {
     }
 
     .scroll_down {
-        bottom: 15%;
+        bottom: 32%;
     }
 
     section>h5 {
@@ -676,6 +687,10 @@ footer a {
         background-size: 100%;
     }
 
+    #experience {
+        min-height: 108vh;
+    }
+
     .experience_container {
         margin: 0 auto;
         gap: 1rem;
@@ -694,6 +709,7 @@ footer a {
     }
 
     #projects {
+        min-height: 160vh;
         padding-top: 0.5rem;
     }
 
@@ -726,5 +742,12 @@ footer a {
 
     .permalinks {
         flex-direction: column;
+    }
+}
+
+/*   Media queries for mini phones  */
+@media screen and (max-width:340px) {
+    #contact {
+        min-height: 135vh;
     }
 }

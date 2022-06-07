@@ -26,7 +26,7 @@ const Header = () => {
                 />
             </h1>
             <div className={styles.resume_links}>
-                <a href={resume} download className={styles.btn}><BsCloudDownloadFill style={{ marginRight: 2 + 'em' }} />Download Resume</a>
+                <a href={resume} download className={styles.btn}><BsCloudDownloadFill className={styles.download_icon} />Download Resume</a>
                 <a href="#src_contact__TSyg4" className={`${styles.btn} ${styles.btn_primary}`}>Let's Talk</a>
             </div>
             <div className={styles.header_socials}>
