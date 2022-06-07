@@ -14,10 +14,10 @@ const Footer = () => {
             <a href="#" className={styles.footer_logo}>Manesh Ram</a>
             <ul className={styles.permalinks}>
                 <li><a href="#">Home</a></li>
-                <li><a href="#src_about__9gcjy">About</a></li>
-                <li><a href="#src_experience__XpwW+">Experience</a></li>
-                <li><a href="#src_projects__vV-IJ">Projects</a></li>
-                <li><a href="#src_contact__JnrQG">Contact</a></li>
+                <li><a href="#src_about__pY0Ec">About</a></li>
+                <li><a href="#src_experience__31O0k">Experience</a></li>
+                <li><a href="#src_projects__P2vHT">Projects</a></li>
+                <li><a href="#src_contact__TSyg4">Contact</a></li>
             </ul>
             <div className={styles.footer_socials}>
                 <a href="https://www.facebook.com/manish.ram.73744/"><FaFacebookSquare /></a>
