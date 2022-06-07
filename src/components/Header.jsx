@@ -27,7 +27,7 @@ const Header = () => {
             </h1>
             <div className={styles.resume_links}>
                 <a href={resume} download className={styles.btn}><BsCloudDownloadFill style={{ marginRight: 2 + 'em' }} />Download Resume</a>
-                <a href="#src_contact__JnrQG" className={`${styles.btn} ${styles.btn_primary}`}>Let's Talk</a>
+                <a href="#src_contact__TSyg4" className={`${styles.btn} ${styles.btn_primary}`}>Let's Talk</a>
             </div>
             <div className={styles.header_socials}>
                 <a href="https://www.linkedin.com/in/manesh-ram/" target="_blank"><BsLinkedin /></a>
@@ -39,7 +39,7 @@ const Header = () => {
             </div>
             <div className={styles.scroll_down}>
                 <div className={`${styles.box} ${styles.bounce}`}>
-                    <a href="#src_contact__JnrQG"><FaAngleDoubleDown /></a>
+                    <a href="#src_contact__TSyg4"><FaAngleDoubleDown /></a>
                 </div>
             </div>
         </header>
