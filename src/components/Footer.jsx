@@ -1,23 +1,19 @@
-
-import React from 'react'
 import styles from '../index.module.css';
 import { FaFacebookSquare } from 'react-icons/fa';
-import { BsInstagram } from 'react-icons/bs';
-import { BsTwitter } from 'react-icons/bs';
+import { BsInstagram, BsTwitter } from 'react-icons/bs';
 import { BiCopyright } from 'react-icons/bi';
 import { AiOutlineLink } from 'react-icons/ai';
-
 
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className={styles.footer_logo}>Manesh Ram</a>
+            <a href="/" className={styles.footer_logo}>Manesh Ram</a>
             <ul className={styles.permalinks}>
-                <li><a href="#">Home</a></li>
-                <li><a href="#src_about__pY0Ec">About</a></li>
-                <li><a href="#src_experience__31O0k">Experience</a></li>
-                <li><a href="#src_projects__P2vHT">Projects</a></li>
-                <li><a href="#src_contact__TSyg4">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="#src_about__WkpXk">About</a></li>
+                <li><a href="#src_experience__IBD2j">Experience</a></li>
+                <li><a href="#src_projects__2QSnh">Projects</a></li>
+                <li><a href="#src_contact__RqzIk">Contact</a></li>
             </ul>
             <div className={styles.footer_socials}>
                 <a href="https://www.facebook.com/manish.ram.73744/"><FaFacebookSquare /></a>
@@ -26,7 +22,7 @@ const Footer = () => {
             </div>
             <div className={styles.footer_copyright}>
                 <h3>Made with <span style={{ color: 'red' }}>❤</span> by manesh Ram</h3>
-                <h4>Copyrights <BiCopyright className={styles.footer_end_link}/> 2022 <a href="https://www.linkedin.com/in/manesh-ram/"><AiOutlineLink className={styles.footer_end_link}/>Manesh Ram</a> </h4>
+                <h4>Copyrights <BiCopyright className={styles.footer_end_link} /> 2022 <a href="https://www.linkedin.com/in/manesh-ram/"><AiOutlineLink className={styles.footer_end_link} />Manesh Ram</a> </h4>
             </div>
         </footer>
     )

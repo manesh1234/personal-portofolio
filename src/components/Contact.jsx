@@ -1,11 +1,9 @@
-
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import styles from '../index.module.css';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsMessenger } from 'react-icons/bs';
-import { BsWhatsapp } from 'react-icons/bs';
+import { BsMessenger, BsWhatsapp } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
-import { ToastContainer, toast, Zoom, Bounce } from 'react-toastify';
+import { ToastContainer, toast, Zoom } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
@@ -33,19 +31,19 @@ const Contact = () => {
                         <HiOutlineMail className={styles.contact_icons} />
                         <h4>Email</h4>
                         <h5>maneshram20@gmail.com</h5>
-                        <a href="mailto:maneshram20@gmail.com" target="_blank">Send a Message</a>
+                        <a href="mailto:maneshram20@gmail.com" target="_blank" rel="noreferrer">Send a Message</a>
                     </article>
                     <article className={styles.contact_option}>
                         <BsMessenger className={styles.contact_icons} />
                         <h4>Messenger</h4>
                         <h5>Manesh ram</h5>
-                        <a href="https://m.me/manish.ram.73744" target="_blank">Send a Message</a>
+                        <a href="https://m.me/manish.ram.73744" target="_blank" rel="noreferrer">Send a Message</a>
                     </article>
                     <article className={styles.contact_option}>
                         <BsWhatsapp className={styles.contact_icons} />
                         <h4>WhatsApp</h4>
                         <h5>+916304409399</h5>
-                        <a href="https://wa.me/+916304409399?text='Hi I'm messaging you from your portofolio website'" target="_blank">Send a Message</a>
+                        <a href="https://wa.me/+916304409399?text='Hi I'm messaging you from your portofolio website'" target="_blank" rel="noreferrer">Send a Message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>

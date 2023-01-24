@@ -1,29 +1,19 @@
-
-import React from 'react'
 import Typewriter from 'typewriter-effect';
 import styles from '../index.module.css';
 import { BsPatchCheckFill } from 'react-icons/bs';
 import { ImHtmlFive } from 'react-icons/im';
-import { FaReact } from 'react-icons/fa';
-import { SiJavascript } from 'react-icons/si';
+import { FaReact, FaBootstrap, FaJava } from 'react-icons/fa';
+import { SiJavascript, SiJquery, SiNodedotjs, SiPhp, SiMysql, SiMongodb, SiPython } from 'react-icons/si';
 import { DiCss3 } from 'react-icons/di';
-import { SiJquery } from 'react-icons/si';
-import { FaBootstrap } from 'react-icons/fa';
-import { SiNodedotjs } from 'react-icons/si';
-import { SiPhp } from 'react-icons/si';
-import { SiMysql } from 'react-icons/si';
-import { SiMongodb } from 'react-icons/si';
-import { FaJava } from 'react-icons/fa';
-import { SiPython } from 'react-icons/si';
 
-function Experience() {
+const Experience = () => {
     return (
         <section id={styles.experience}>
             <h5>My Skills and My Experience</h5>
             <h2>
                 <Typewriter
                     options={{
-                        strings: ["Always Learning new Technologies","Primary strength is DSA and competetive coding", "amazing problem solving skills"],
+                        strings: ["Always Learning new Technologies", "Primary strength is DSA and competetive coding", "amazing problem solving skills"],
                         autoStart: true,
                         loop: true,
                     }}

@@ -1,27 +1,13 @@
-
-import React, { useState } from 'react'
+import { useState } from 'react';
 import styles from '../index.module.css';
 import Typewriter from 'typewriter-effect';
-import about_img from '../assets/about_img.jpeg';
 import leetcode from '../assets/leetcode.jpg';
 import gfg from '../assets/gfg.png';
 import link_img from '../assets/link_img.png';
 
 const About = () => {
-    const [activeLeetcodeState, setLeetcodeState] = useState('not active');
-    const [activeGfgState, setGfgState] = useState('not active');
-    const leetcode_enter = () => {
-        setLeetcodeState('active');
-    }
-    const leetcode_leave = () => {
-        setLeetcodeState('not active');
-    }
-    const gfg_enter = () => {
-        setGfgState('active');
-    }
-    const gfg_leave = () => {
-        setGfgState('not active');
-    }
+    const [activeLeetcodeState, setLeetcodeState] = useState(false);
+    const [activeGfgState, setGfgState] = useState(false);
 
     return (
         <section id={styles.about}>
@@ -36,13 +22,8 @@ const About = () => {
                 />
             </h2>
             <div className={styles.image_box}>
-                <div className={styles.left}>
-                    <img src={about_img} alt="about_img" />
-                </div>
-                <div className={styles.right}>
-                    <a href="https://leetcode.com/maneshram/" > <img width={30} height={170} onMouseEnter={leetcode_enter} onMouseLeave={leetcode_leave} src={activeLeetcodeState === 'not active' ? leetcode : link_img} alt="leetcode" /></a>
-                    <a href="https://auth.geeksforgeeks.org/user/maneshram20/practice/" > <img width={30} height={200} onMouseEnter={gfg_enter} onMouseLeave={gfg_leave} src={activeGfgState === 'not active' ? gfg : link_img} alt="gfg" /></a>
-                </div>
+                <a className={styles.img} href="https://leetcode.com/maneshram/" target="_blank" rel="noreferrer"> <img width={30} height={170} onMouseEnter={() => setLeetcodeState(true)} onMouseLeave={() => setLeetcodeState(false)} src={activeLeetcodeState === false ? leetcode : link_img} alt="leetcode" /></a>
+                <a className={styles.img} href="https://auth.geeksforgeeks.org/user/maneshram20/practice/" target="_blank" rel="noreferrer"> <img width={30} height={200} onMouseEnter={() => setGfgState(true)} onMouseLeave={() => setGfgState(false)} src={activeGfgState === false ? gfg : link_img} alt="gfg" /></a>
             </div>
         </section>
     )
