@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-import styles from '../index.module.css';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsMessenger, BsWhatsapp } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
@@ -22,25 +21,25 @@ const Contact = () => {
     };
 
     return (
-        <section id={styles.contact}>
+        <section id="contact">
             <h5>Get in Touch</h5>
             <h2>Contact Me</h2>
-            <div className={styles.contacts_container}>
-                <div className={styles.contact_options}>
-                    <article className={styles.contact_option}>
-                        <HiOutlineMail className={styles.contact_icons} />
+            <div className="contacts_container">
+                <div className="contact_options">
+                    <article className="styles.contact_option">
+                        <HiOutlineMail className="styles.contact_icons" />
                         <h4>Email</h4>
                         <h5>maneshram20@gmail.com</h5>
                         <a href="mailto:maneshram20@gmail.com" target="_blank" rel="noreferrer">Send a Message</a>
                     </article>
-                    <article className={styles.contact_option}>
-                        <BsMessenger className={styles.contact_icons} />
+                    <article className="contact_option">
+                        <BsMessenger className="contact_icons" />
                         <h4>Messenger</h4>
                         <h5>Manesh ram</h5>
                         <a href="https://m.me/manish.ram.73744" target="_blank" rel="noreferrer">Send a Message</a>
                     </article>
-                    <article className={styles.contact_option}>
-                        <BsWhatsapp className={styles.contact_icons} />
+                    <article className="contact_option">
+                        <BsWhatsapp className="contact_icons" />
                         <h4>WhatsApp</h4>
                         <h5>+916304409399</h5>
                         <a href="https://wa.me/+916304409399?text='Hi I'm messaging you from your portofolio website'" target="_blank" rel="noreferrer">Send a Message</a>
@@ -50,7 +49,7 @@ const Contact = () => {
                     <input type="text" name="name" id="name" placeholder="Your Full Name" required />
                     <input type="email" name="email" id="email" placeholder="Your Email" required />
                     <textarea name="message" cols="20" rows="10" id="message" minLength={25} placeholder="Your Message" required></textarea>
-                    <button type="submit" className={`${styles.btn} ${styles.btn_primary}`}>Send Message</button>
+                    <button type="submit" className="btn btn_primary">Send Message</button>
                 </form>
             </div>
             <ToastContainer draggable={false} transition={Zoom} autoClose={8000} />

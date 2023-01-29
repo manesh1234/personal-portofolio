@@ -55,6 +55,10 @@ body {
     background-image: url(./assets/bg-texture.png);
 }
 
+#root {
+    width: 100%;
+}
+
 .container {
     width: var(--container-width-lg);
 }
@@ -147,6 +151,16 @@ header {
     margin-top: 3rem;
     justify-content: center;
     align-items: center;
+}
+
+.resume_links>:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.resume_links>:first-child>svg{
+    margin-right: 4px;
 }
 
 .download_icon {
@@ -516,6 +530,24 @@ footer a {
     font-weight: bolder;
 }
 
+.copyright-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+.copyright-text>:first-child{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.copyright-text>a{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
 /* end of CSS for footer section  */
 
 /*   Media queries for tablets  */
