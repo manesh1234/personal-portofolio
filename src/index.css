@@ -159,7 +159,7 @@ header {
     justify-content: space-evenly;
 }
 
-.resume_links>:first-child>svg{
+.resume_links>:first-child>svg {
     margin-right: 4px;
 }
 
@@ -530,25 +530,28 @@ footer a {
     font-weight: bolder;
 }
 
-.copyright-text{
+.copyright-text {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.3rem;
 }
 
-.copyright-text>:first-child{
+.copyright-text>:first-child {
     display: flex;
     align-items: center;
     gap: 3px;
 }
 
-.copyright-text>a{
+.copyright-text>a {
     display: flex;
     align-items: center;
     gap: 2px;
 }
+
 /* end of CSS for footer section  */
+
+
 
 /*   Media queries for tablets  */
 @media screen and (max-width:1024px) {
